@@ -4,7 +4,7 @@ pipeline {
       stage('Build') {
           steps {
               sh 'g++ -o myProgram PES1UG20CS085.cpp'
-              build job: 'PES1UG20CS085-1'
+              build job: 'PES1UG20CS085-1 does not exist :)'
           }
       }
       stage('Test') {
