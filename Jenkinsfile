@@ -9,7 +9,7 @@ pipeline {
       }
       stage('Test') {
           steps {
-              sh './:)'
+              sh './:)' // intentional error, should've been `sh './myProgram'`
           }
       }
       stage('Deploy') {
